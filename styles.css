@@ -136,3 +136,10 @@ table {
   text-align: center;
   display: block;
   }
+  @media (max-width: 527px) { 
+    nav li {
+      display: block;
+      margin-right: 0px;
+      padding-left: 0px;
+    }
+   }
