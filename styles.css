@@ -1,9 +1,7 @@
-html {
-  font-size: 30px;
-}
 body {
   font-family: 'Parisienne', cursive;
   background-color: #F8E8EE;
+  font-size: 28px;
  }
 
 header {
@@ -14,7 +12,7 @@ header {
 }
 
 header h1 {
-  margin: 10px;
+  margin: 25px;
   color: #99627A;
   text-align: center;
 }
@@ -126,7 +124,7 @@ li {
 table {
   text-align: center;
   display: inline-block;
-  font-size: 15px;
+  font-size: 22px;
   color: #99627A;
   font-weight: 800;
 }
