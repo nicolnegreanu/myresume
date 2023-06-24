@@ -134,7 +134,7 @@ table {
   }
   @media (max-width: 527px) { 
     nav li {
-      display: inline-block;
+      display: block;
       margin-right: 0px;
       padding-left: 0px;
     }
