@@ -1,7 +1,7 @@
 body {
   font-family: 'Parisienne', cursive;
   background-color: #F8E8EE;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 header {
@@ -11,10 +11,11 @@ header {
   padding: 20px;
 }
 
-header h1 {
+h1 {
   margin: 10px;
   color: #99627A;
   text-align: center;
+  font-weight: bolder;
 }
 
 p {
@@ -29,7 +30,7 @@ p {
 h2,
 h3 {
   color: #99627A;
-  font-weight: 600;
+  font-weight: bold;
   text-align: center;
   padding-top: 10px;
 }
@@ -58,6 +59,7 @@ nav li {
   display: inline;
   margin-right: 9%;
   padding-left: 90px;
+  font-size: 34px;
 }
 
 nav a {
@@ -112,7 +114,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: inline;
+  display: block;
 }
 
 li {
@@ -120,13 +122,14 @@ li {
   display: block;
   color: #99627A;
   font-weight: 800;
-  margin-top: 30px;
+  margin-top: 0px;
+  font-size: 25px;
 }
 
 table {
   text-align: center;
   display: inline;
-  font-size: 20px;
+  font-size: 25px;
   color: #99627A;
   font-weight: 800;
 }
@@ -144,6 +147,12 @@ table {
   color: rgb(192, 120, 120);
   font-family: 'Parisienne', cursive ;
   text-align: center;
+}
+
+blockquote {
+color: #99627A;
+font-weight: bold;
+font-size: 28px;
 }
 
 @media (max-width: 527px) {
