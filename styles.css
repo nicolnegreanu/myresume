@@ -103,6 +103,13 @@ button {
   width: 100%;
 }
 
+hr {
+  border: 6px dotted rgb(192, 120, 120);
+  width: 5%;
+  margin: 50px auto;
+  border-bottom: none;
+}
+
 .copyright {
   color: #FFF;
   font-family: 'Sacramento', cursive;
@@ -128,37 +135,50 @@ li {
 
 table {
   text-align: center;
-  display: inline;
+  display: inline-block;
   font-size: 25px;
   color: #99627A;
   font-weight: 800;
 }
 
+.work,
+th,
+td {
+  border: 1px solid #99627A;
+  border-radius: 10px;
+  padding: 15px;
+  border-spacing: 15px;
+}
+
 .enumerare {
   text-align: center;
-  margin-top: 100px;
-  }
+  margin-top: 0px;
+}
 
-.poster { 
+.poster {
   margin-top: 50px;
   width: 50%;
   margin-left: 25%;
   margin-bottom: 50px;
   color: rgb(192, 120, 120);
-  font-family: 'Parisienne', cursive ;
+  font-family: 'Parisienne', cursive;
   text-align: center;
 }
 
 blockquote {
-color: #99627A;
-font-weight: bold;
-font-size: 28px;
+  color: #99627A;
+  font-weight: bold;
+  font-size: 28px;
 }
 
-@media (max-width: 527px) {
+@media (max-width: 615px) {
   nav li {
     display: block;
     margin-right: 0px;
     padding-left: 0px;
+  }
+
+  table {
+    font-size: 20px;
   }
 }
