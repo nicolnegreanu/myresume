@@ -125,7 +125,7 @@ li {
 
 table {
   text-align: center;
-  display: inline;
+  display: inline-block;
   font-size: 25px;
   color: #99627A;
   font-weight: 800;
