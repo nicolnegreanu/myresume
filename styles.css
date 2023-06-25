@@ -2,7 +2,7 @@ body {
   font-family: 'Parisienne', cursive;
   background-color: #F8E8EE;
   font-size: 28px;
- }
+}
 
 header {
   background-color: #F2D8D8;
@@ -12,31 +12,33 @@ header {
 }
 
 header h1 {
-  margin: 25px;
+  margin: 10px;
   color: #99627A;
   text-align: center;
 }
 
 p {
-padding-top: 20px;
-margin: 10px;
-color: #99627A;
-text-align: center;
-font-weight: bold;
+  padding-top: 20px;
+  margin: 10px;
+  color: #99627A;
+  text-align: center;
+  font-weight: bold;
+
 }
 
-h2, h3 {
+h2,
+h3 {
   color: #99627A;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
-  }
+}
 
-#new-h3 {
-    padding-top: 40px;
-    margin-top: 40px;
-    text-align: center;
-   }
+h4 {
+  text-align: center;
+  color: #99627A;
+  margin-top: 10px;
+}
 
 nav {
   background-color: hwb(335 56% 22%);
@@ -53,7 +55,7 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
+  display: inline;
   margin-right: 9%;
   padding-left: 90px;
 }
@@ -68,8 +70,8 @@ a {
 }
 
 main {
-   text-align: center;
-   padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 footer {
@@ -95,7 +97,8 @@ button {
 }
 
 .code-img {
-  float: left;
+  border: 5px solid rgb(223, 149, 149);
+  width: 100%;
 }
 
 .copyright {
@@ -105,37 +108,48 @@ button {
   font-weight: lighter;
 }
 
- ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-  }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
 
 li {
   text-align: center;
   display: block;
   color: #99627A;
   font-weight: 800;
+  margin-top: 30px;
 }
 
 table {
   text-align: center;
-  display: inline-block;
-  font-size: 15px;
+  display: inline;
+  font-size: 25px;
   color: #99627A;
   font-weight: 800;
 }
 
-.ulhobbies {
-  margin-top: 80px;
+.enumerare {
   text-align: center;
-  display: block;
+  margin-top: 100px;
   }
-  @media (max-width: 527px) { 
-    nav li {
-      display: block;
-      margin-right: 0px;
-      padding-left: 0px;
-    }
-   }
+
+.poster { 
+  margin-top: 50px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  color: rgb(192, 120, 120);
+  font-family: 'Parisienne', cursive ;
+  text-align: center;
+}
+
+@media (max-width: 527px) {
+  nav li {
+    display: block;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+}
