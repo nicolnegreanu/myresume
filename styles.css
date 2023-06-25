@@ -171,7 +171,7 @@ blockquote {
   font-size: 28px;
 }
 
-@media (max-width: 615px) {
+@media (max-width: 500px) {
   nav li {
     display: block;
     margin-right: 0px;
@@ -179,6 +179,6 @@ blockquote {
   }
 
   table {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
