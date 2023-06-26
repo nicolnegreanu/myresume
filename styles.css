@@ -15,22 +15,18 @@ h1 {
   margin: 10px;
   color: #99627A;
   text-align: center;
-  font-weight: bolder;
-}
+ }
 
 p {
   padding-top: 20px;
   margin: 10px;
   color: #99627A;
   text-align: center;
-  font-weight: bold;
-
-}
+  }
 
 h2,
 h3 {
   color: #99627A;
-  font-weight: bold;
   text-align: center;
   padding-top: 10px;
 }
@@ -73,8 +69,7 @@ a {
 
 main {
   text-align: center;
-  padding: 20px;
-}
+  }
 
 footer {
   background-color: #C88EA7;
@@ -95,8 +90,7 @@ button {
   display: inline-block;
   font-size: 25px;
   font-family: 'Parisienne', cursive;
-  font-weight: bold;
-}
+ }
 
 .code-img {
   border: 5px solid rgb(223, 149, 149);
@@ -105,7 +99,7 @@ button {
 
 hr {
   border: 6px dotted rgb(192, 120, 120);
-  width: 5%;
+  width: 7%;
   margin: 50px auto;
   border-bottom: none;
 }
@@ -128,7 +122,6 @@ li {
   text-align: center;
   display: block;
   color: #99627A;
-  font-weight: 800;
   margin-top: 0px;
   font-size: 25px;
 }
@@ -138,8 +131,7 @@ table {
   display: inline-block;
   font-size: 25px;
   color: #99627A;
-  font-weight: 800;
-}
+ }
 
 .work,
 th,
@@ -170,20 +162,22 @@ blockquote {
   font-weight: bold;
   font-size: 28px;
 }
-*{
+
+* {
   box-sizing: border-box;
+  font-family: 'Parisienne', cursive;
 }
 
 @media (max-width: 688px) {
   nav li {
     display: block;
-    margin-right: 0px;
-    padding-left: 0px;
-    text-align: center;
-  }
-
+    margin-right: 10px;
+    padding-left: 0%;
+   text-align: center;
+   }
   .skills {
     font-size: 18px;
-    display: inline-block;
+    display: inline;
+    min-width: 688px;
   }
 }
