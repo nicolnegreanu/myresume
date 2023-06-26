@@ -190,7 +190,7 @@ blockquote {
    }
   .skills {
     font-size: 18px;
-    display: block;
+    display: inline;
     min-width: 320px;
   }
 }
