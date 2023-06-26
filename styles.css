@@ -174,15 +174,16 @@ blockquote {
   box-sizing: border-box;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 688px) {
   nav li {
     display: block;
     margin-right: 0px;
     padding-left: 0px;
+    text-align: center;
   }
 
   .skills {
     font-size: 18px;
-    display: block;
+    display: inline-block;
   }
 }
