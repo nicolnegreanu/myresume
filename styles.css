@@ -58,7 +58,7 @@ nav ul {
 nav li {
   display: inline;
   margin-right: 9%;
-  padding-left: 90px;
+  padding-left: 80px;
   font-size: 34px;
 }
 
@@ -174,14 +174,15 @@ blockquote {
   box-sizing: border-box;
 }
 
-@media (max-width: 688px) {
+@media (max-width: 320px) {
   nav li {
     display: block;
     margin-right: 0px;
     padding-left: 0px;
   }
 
-  table {
+  .skills {
     font-size: 18px;
+    display: inline;
   }
 }
