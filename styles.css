@@ -167,17 +167,30 @@ blockquote {
   box-sizing: border-box;
   font-family: 'Parisienne', cursive;
 }
-
-@media (max-width: 688px) {
+.btn {
+  display: inline-block;
+  color: rgb(163, 112, 112);
+  font-weight: 500;
+  font-size: 20px;
+  background: #e0bfce;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #bba5e0 ;
+}
+@media (max-width: 500px) {
   nav li {
     display: block;
     margin-right: 10px;
     padding-left: 0%;
-   text-align: center;
+    text-align: center;
    }
   .skills {
     font-size: 18px;
-    display: inline;
-    min-width: 688px;
+    display: block;
+    min-width: 320px;
   }
 }
