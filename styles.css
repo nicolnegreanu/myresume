@@ -170,6 +170,9 @@ blockquote {
   font-weight: bold;
   font-size: 28px;
 }
+*{
+  box-sizing: border-box;
+}
 
 @media (max-width: 688px) {
   nav li {
