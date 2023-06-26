@@ -183,6 +183,6 @@ blockquote {
 
   .skills {
     font-size: 18px;
-    display: inline;
+    display: block;
   }
 }
