@@ -15,14 +15,14 @@ h1 {
   margin: 10px;
   color: #99627A;
   text-align: center;
- }
+}
 
 p {
   padding-top: 20px;
   margin: 10px;
   color: #99627A;
   text-align: center;
-  }
+}
 
 h2,
 h3 {
@@ -69,7 +69,7 @@ a {
 
 main {
   text-align: center;
-  }
+}
 
 footer {
   background-color: #C88EA7;
@@ -77,20 +77,6 @@ footer {
   padding: 20px;
   text-align: center;
 }
-
-button {
-  background-color: #bba5e0;
-  /* Green */
-  border: none;
-  border-radius: 10px;
-  color: rgb(189, 141, 141);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  font-family: 'Parisienne', cursive;
- }
 
 .code-img {
   border: 5px solid rgb(223, 149, 149);
@@ -129,9 +115,9 @@ li {
 table {
   text-align: center;
   display: inline-block;
-  font-size: 25px;
+  font-size: 23px;
   color: #99627A;
- }
+}
 
 .work,
 th,
@@ -167,6 +153,7 @@ blockquote {
   box-sizing: border-box;
   font-family: 'Parisienne', cursive;
 }
+
 .btn {
   display: inline-block;
   color: rgb(163, 112, 112);
@@ -178,19 +165,26 @@ blockquote {
   padding: 12px 16px;
   cursor: pointer;
 }
+
 .btn:hover {
-  background: #bba5e0 ;
+  background: #bba5e0;
 }
-@media (max-width: 500px) {
+
+@media screen and (max-width: 688px) {
   nav li {
     display: block;
     margin-right: 10px;
     padding-left: 0%;
     text-align: center;
-   }
+  }
+
   .skills {
-    font-size: 18px;
+    align-items: stretch;
+  }
+
+  .tableskills {
+    font-size: 45%;
     display: inline;
-    min-width: 320px;
+    width: 85%;
   }
 }
