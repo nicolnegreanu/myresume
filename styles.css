@@ -71,6 +71,9 @@ main {
   text-align: center;
 }
 
+img {
+border-radius: 50%;
+}
 footer {
   background-color: #C88EA7;
   color: #fff;
