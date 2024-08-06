@@ -1,11 +1,11 @@
 body {
-  font-family: 'Parisienne', cursive;
-  background-color: #F8E8EE;
+  font-family: 'Raleway';
+  background-color: #F3E5F5;
   font-size: 24px;
 }
 
 header {
-  background-color: #F2D8D8;
+  background-color: #E1BEE7;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -42,7 +42,7 @@ nav {
   color: #fff;
   padding: 20px;
   text-align: center;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Open Sans', cursive;
 }
 
 nav ul {
@@ -95,7 +95,7 @@ hr {
 
 .copyright {
   color: #FFF;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Raleway', cursive;
   text-decoration: none;
   font-weight: lighter;
 }
@@ -154,7 +154,7 @@ blockquote {
 
 * {
   box-sizing: border-box;
-  font-family: 'Parisienne', cursive;
+  font-family: 'Raleway', cursive;
 }
 
 .btn {
