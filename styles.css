@@ -5,8 +5,7 @@ body {
   font-weight: lighter;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+ }
 
 header {
   background-color: #E1BEE7;
@@ -14,6 +13,43 @@ header {
   text-align: center;
   padding: 20px;
   display: inline;
+}
+
+#main-header {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(29, 26, 24);
+  padding: 0 5%;
+}
+
+#main-header nav a {
+  color:hwb(330 23% 74% / 0.721);
+  font-size: 1.25rem;
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(238, 164, 80);
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+
+.menu-btn span {
+  width: 100%;
+  height: 3px;
+  background-color: white;
 }
 
 h1 {
@@ -100,7 +136,7 @@ hr {
 }
 
 .copyright {
-  color: #FFF;
+  color: rgb(29, 26, 24);
   font-family: 'Raleway', cursive;
   text-decoration: none;
   font-weight: lighter;
